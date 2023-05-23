@@ -3,18 +3,29 @@ public class Ejercicio06{
     public static void main(String[] args){
         Scanner promedio = new Scanner(System.in);
 
-        int num = 0;
-        int result = 0;
-        float fin;
-        
-        for (int i=1; i<6; i++){
-            System.out.println("Ingrese el valor "+i);
-            num = promedio.nextInt();
+        int num1, num2, num3, num4, num5;
+        int resultado;
 
-           result = result + num;
-        }
-          fin = result / 5;
 
-            System.out.println("El promedio es de: "+fin);
+        System.out.print("Ingrese el primer numero: ");
+        num1 = promedio.nextInt();
+
+        System.out.print("Ingrese el segundo numero: ");
+        num2 = promedio.nextInt();
+
+        System.out.print("Ingrese el tercero numero: ");
+        num3 = promedio.nextInt();
+
+        System.out.print("Ingrese el cuarto numero: ");
+        num4 = promedio.nextInt();
+
+        System.out.print("Ingrese el quinto numero: ");
+        num5 = promedio.nextInt();
+
+        resultado = (num1 + num2 + num3 + num4 + num5) / 5;
+
+        System.out.print("El promedio total es: "+resultado);
+
+
     }
 }
