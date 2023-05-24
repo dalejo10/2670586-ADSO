@@ -57,7 +57,7 @@ public class Ejercicio6{
                             }else{
                                 if(opcion==6){
                                     numero_6 = numero / 100000;
-                                    System.out.print("El Primer sexto es: "+numero_6);
+                                    System.out.print("El sexto digito es: "+numero_6);
                                     
 
                                 }
