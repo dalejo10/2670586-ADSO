@@ -29,33 +29,36 @@ public class Ejercicio6{
             opcion = entrada.nextInt();
 
             if(opcion==1){
-                numero_1 = numero / 100000;
-                System.out.print("El Primer digito es: "+numero_1);
+                numero_1 = numero % 10;
+                System.out.print("El primer digito es: "+numero_1);
 
             }else{
                 if(opcion==2){
-                    numero_2 = (numero % 100000) / 10000;
+                    numero_2 = (numero % 100) / 10;
                     System.out.print("El segundo digito es: "+numero_2);
 
                 }else{
                     if(opcion==3){
-                        numero_3 = (numero % 10000) / 1000;
+                        numero_3 = (numero % 1000) / 100;
                         System.out.print("El tercer digito es: "+numero_3);
 
                     }else{
                         if(opcion==4){
-                            numero_4 = (numero % 1000) / 100;
+                            numero_4 = (numero % 10000) / 1000;
                             System.out.print("El cuarto digito es: "+numero_4);
+                            
 
                         }else{
                             if(opcion==5){
-                                numero_5 = (numero % 100) / 10;
+                                numero_5 = (numero % 100000) / 10000;
                                 System.out.print("El quinto digito es: "+numero_5);
+                                
 
                             }else{
                                 if(opcion==6){
-                                    numero_6 = numero % 10;
-                                    System.out.print("El sexto digito es: "+numero_6);
+                                    numero_6 = numero / 100000;
+                                    System.out.print("El Primer sexto es: "+numero_6);
+                                    
 
                                 }
                             }
