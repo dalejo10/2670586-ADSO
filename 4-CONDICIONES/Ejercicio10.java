@@ -18,11 +18,7 @@ public class Ejercicio10{
         float nota_necesaria3 = 0f;
         float nota_necesaria4 = 0f;
         float nota_necesaria5 = 0f;
-        String mate = "Matematica";
-        String espa = "Español";
-        String ing = "Ingles";
-        String cn = "Ciencias Naturales";
-        String depo = "Deportes";
+        
 
 
         System.out.print("Ingrese la nota de Matematicas: ");
@@ -94,35 +90,35 @@ public class Ejercicio10{
             if(nota1<nota2 & nota1<nota3 & nota1<nota4 & nota1<nota5){
             
             nota_necesaria = (3 * 5) - promedio + nota1;
-            System.out.println("Debio obtener una nota de "+formato.format(nota_necesaria)+ " en "+mate+" para aprobar el periodo.");
+            System.out.println("Debio obtener una nota de "+formato.format(nota_necesaria)+ " en Matematica para aprobar el periodo.");
         }
         }
         if(resultado_final < 3 ){
             if(nota2<nota1 & nota2<nota3 & nota2<nota4 & nota2<nota5){
             
             nota_necesaria2 = (3 * 5) - promedio + nota2;
-            System.out.println("Debio obtener una nota de "+formato.format(nota_necesaria2)+ " en "+espa+" para aprobar el periodo.");
+            System.out.println("Debio obtener una nota de "+formato.format(nota_necesaria2)+ " en Español para aprobar el periodo.");
         }
         }
         if(resultado_final < 3 ){
             if(nota3<nota1 & nota3<nota2 & nota3<nota4 & nota2<nota5){
             
             nota_necesaria3 = (3 * 5) - promedio + nota3;
-            System.out.println("Debio obtener una nota de "+formato.format(nota_necesaria3)+ " en "+ing+" para aprobar el periodo.");
+            System.out.println("Debio obtener una nota de "+formato.format(nota_necesaria3)+ " en Ingles para aprobar el periodo.");
         }
         }
         if(resultado_final < 3 ){
             if(nota4<nota1 & nota4<nota2 & nota4<nota3 & nota4<nota5){
             
             nota_necesaria4 = (3 * 5) - promedio + nota4;
-            System.out.println("Debio obtener una nota de "+formato.format(nota_necesaria4)+ " en "+cn+" para aprobar el periodo.");
+            System.out.println("Debio obtener una nota de "+formato.format(nota_necesaria4)+ " en Ciencias Naturales para aprobar el periodo.");
         }
         }
         if(resultado_final < 3 ){
             if(nota5<nota1 & nota5<nota2 & nota5<nota3 & nota5<nota4){
             
             nota_necesaria5 = (3 * 5) - promedio + nota5;
-            System.out.println("Debio obtener una nota de "+formato.format(nota_necesaria5)+ " en "+depo+" para aprobar el periodo.");
+            System.out.println("Debio obtener una nota de "+formato.format(nota_necesaria5)+ " en Deportes para aprobar el periodo.");
         }
         }
         
