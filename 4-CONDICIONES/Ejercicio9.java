@@ -86,22 +86,6 @@ public class Ejercicio9{
                 System.out.print("TREINTA DE ");
             }else if(d2==1){
                 System.out.print("TREINTA Y UNO DE ");
-            }else if(d2==2){
-                System.out.print("TREINTA Y DOS DE ");
-            }else if(d2==3){
-                System.out.print("TREINTA Y TRES DE ");
-            }else if(d2==4){
-                System.out.print("TREINTA Y CUATRO DE ");
-            }else if(d2==5){
-                System.out.print("TREINTA Y CINCO DE ");
-            }else if(d2==6){
-                System.out.print("TREINTA Y SEIS DE ");
-            }else if(d2==7){
-                System.out.print("TREINTA Y SIETE DE ");
-            }else if(d2==8){
-                System.out.print("TREINTA Y OCHO DE ");
-            }else if(d2==9){
-                System.out.print("TREINTA Y NUEVE DE ");
             }
         }
 
