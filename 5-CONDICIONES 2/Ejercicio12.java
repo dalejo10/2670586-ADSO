@@ -15,7 +15,7 @@ public class Ejercicio12{
               porcentaje = (num1 * porcentaje);
         float totalpagar = (num1 - porcentaje);
 
-        if(desc <= 100){
+        if(desc <= 100 && desc >= 0){
             System.out.println("El precio final con el descuento es: "+totalpagar);
             System.out.println("Se descontaron "+porcentaje);
         }else{
