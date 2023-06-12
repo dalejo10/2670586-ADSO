@@ -24,7 +24,7 @@ public class Ejercicio2{
             
          }
          resultado = suma_promedio / suma_credito  ;
-         System.out.println(suma_credito);
-         System.out.println(resultado);
+         System.out.println("El total de creditos es: "+suma_credito);
+         System.out.println("El promedio de semestre es: "+resultado);
     }
 }

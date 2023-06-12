@@ -17,6 +17,6 @@ public class Ejercicio1{
             promedio = suma  / cantidad;
 
         }
-        System.out.print(promedio);
+        System.out.print("El promedio de nota obtenida es: "+promedio);
     }
 }
