@@ -33,7 +33,7 @@ public class Ejercicio7{
 
 
         }else{
-            if(numero >= 100000000 & numero <= 199999999){
+            if(numero >= 100000000 & numero <= 999999999){
 
                 System.out.println("------FORMATO DE MONEDA------");
 
@@ -50,7 +50,7 @@ public class Ejercicio7{
              System.out.print("Moneda: $ "+n1+n2+n3+"."+n4+n5+n6+"."+n7+n8+n9);
 
             }else{
-                if(numero >= 10000000 & numero <= 19999999){
+                if(numero >= 10000000 & numero <= 99999999){
 
                     System.out.println("------FORMATO DE MONEDA------");
 
@@ -66,7 +66,7 @@ public class Ejercicio7{
                   System.out.print("Moneda: $ "+n1+n2+"."+n3+n4+n5+"."+n6+n7+n8);
 
                 }else{
-                    if(numero >= 1000000 & numero <= 1999999){
+                    if(numero >= 1000000 & numero <= 9999999){
 
                         System.out.println("------FORMATO DE MONEDA------");
 
@@ -81,7 +81,7 @@ public class Ejercicio7{
                      System.out.print("Moneda: $ "+n1+"."+n2+n3+n4+"."+n5+n6+n7);
                      
                     }else{
-                        if(numero >= 100000 & numero <= 199999){
+                        if(numero >= 100000 & numero <= 999999){
 
                             System.out.println("------FORMATO DE MONEDA------");
 
@@ -95,7 +95,7 @@ public class Ejercicio7{
                          System.out.print("Moneda: $ "+n1+n2+n3+"."+n4+n5+n6);
                          
                         }else{
-                            if(numero >= 10000 & numero <= 19999){
+                            if(numero >= 10000 & numero <= 99999){
 
                                 System.out.println("------FORMATO DE MONEDA------");
 
@@ -108,7 +108,7 @@ public class Ejercicio7{
                              System.out.print("Moneda: $ "+n1+n2+"."+n3+n4+n5);
 
                             }else{
-                                if(numero >= 1000 & numero <= 1999){
+                                if(numero >= 1000 & numero <= 9999){
 
                                     System.out.println("------FORMATO DE MONEDA------");
 
