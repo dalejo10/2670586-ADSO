@@ -7,17 +7,18 @@ public class Ejercicio3{
         int altura = entrada.nextInt();
 
         
-        for(int i = 1; i<=altura; i=i+1){
+         for(int num_filas = 1; num_filas<=altura; num_filas++){
             
-            for(int blancos = altura - i; blancos > 0; blancos=blancos-1){
+            for(int blancos = 1; blancos <= altura-num_filas; blancos++){
                 System.out.print(" ");
             }
  
             
-            for(int asteriscos=1; asteriscos<=(i*2)-1; asteriscos=asteriscos+1){
+            for(int asteriscos=1; asteriscos<=(num_filas*2)-1; asteriscos++){
                 System.out.print("*");
             }
             System.out.println();
+
         }
     }
 }
