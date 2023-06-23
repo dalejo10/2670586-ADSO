@@ -12,7 +12,7 @@ public class Ejercicio3{
         
         for(int l=1; contador<=numero; l++){
 
-            diferente = (int)(Math.random()*99);
+            diferente = (int)(Math.random()*1000);
             
             int auxiliar = 0;
 
