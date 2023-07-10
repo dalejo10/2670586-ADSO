@@ -8,14 +8,14 @@ public class Ejercicio3{
         
         System.out.print("Ingrese valor total a financiar: ");
         double valor_total = entrada.nextDouble();
-
-        System.out.print("Ingrese la tasa de interes: ");
-        double tasa_interes = entrada.nextDouble();
-
-        System.out.print("Ingrese cantidad la cantidad cuotas a pagar: ");
-        int cantidad_cuotas = entrada.nextInt(); 
         
         if(valor_total > 0){
+
+            System.out.print("Ingrese la tasa de interes: ");
+            double tasa_interes = entrada.nextDouble();
+
+            System.out.print("Ingrese cantidad la cantidad cuotas a pagar: ");
+            int cantidad_cuotas = entrada.nextInt(); 
         
             double interes = tasa_interes / 100;
             double valor_cuota = (valor_total * interes) / (1 - (Math.pow(1 +interes, - cantidad_cuotas)));
@@ -33,6 +33,9 @@ public class Ejercicio3{
 
                 System.out.println(i+"|"+tipo_moneda.format(valor_cuota)+"|"+tipo_moneda.format(interes_final)+"|"+tipo_moneda.format(amortizacion)+"|"+tipo_moneda.format(deuda_final));
             }
+
+        }else{
+            System.out.print("Ingrese cantidad correcta");
         }  
     }
 }
