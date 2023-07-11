@@ -16,7 +16,7 @@ public class Ejercicio9{
         int invertido6 = 0;
         
         System.out.println();
-        System.out.println("Raiz digital:");
+        System.out.println("Raiz digital: ");
         while( numero > 0 ) {
             int resto = numero % 10;
             invertido = invertido * 10 + resto;
@@ -27,12 +27,16 @@ public class Ejercicio9{
         while(invertido > 0){
             
             invertido1 = invertido % 10;
-            System.out.print(invertido1+"+");
+            if(invertido < 10){
+                System.out.print(invertido1+" ");
+            }else{
+                System.out.print(invertido1+" + ");
+            }
             invertido = invertido / 10;
             invertido2 = invertido2 + invertido1;
         }
        
-        System.out.println("="+invertido2);
+        System.out.println(" = "+invertido2);
 
 
 
@@ -47,11 +51,16 @@ public class Ejercicio9{
         while(invertido3 > 0){
             
             invertido4 = invertido3 % 10;
-            System.out.print(invertido4+"+");
+            if(invertido3 < 10){
+                System.out.print(invertido4+" ");
+            }else{
+                System.out.print(invertido4+" + ");
+            }
+            
             invertido3 = invertido3 / 10;
             invertido5 = invertido5 + invertido4;
         }
-        System.out.println("="+invertido5);
+        System.out.println(" = "+invertido5);
         System.out.println("La Raiz digital de "+auxiliar+" es: "+invertido5);
     }
 }
